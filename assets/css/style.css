@@ -537,6 +537,19 @@ section .container {
   margin-bottom: 10px;
 }
 
+.btn-download {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.btn-download:hover {
+  color: #fff;
+  background: #18d26e;
+  border: 3px solid #18d26e;
+}
+
+
 .resume .resume-item ul {
   padding-left: 20px;
 }
@@ -805,6 +818,10 @@ section .container {
   padding: 20px;
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
+}
+
+.contact .info-box:hover  {
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .contact .info-box i.bx {
